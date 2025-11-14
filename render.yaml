@@ -3,6 +3,6 @@ services:
     name: chat-app
     env: python
     plan: free
-    buildCommand: pip install -r chat_app/requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn chat_app.app:app --worker-class gunicorn.workers.eventlet.EventletWorker -w 1 --bind 0.0.0.0:$PORT
     autoDeploy: true
