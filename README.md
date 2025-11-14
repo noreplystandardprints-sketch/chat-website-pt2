@@ -95,4 +95,8 @@ Note: GitHub hosts the code; it does not run Flask apps. Use a server (VM, conta
 
 ## License
 
-MIT License. See `LICENSE` for the full text.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0). See `LICENSE` for the full text.
+
+In short: you may share and adapt the material for non-commercial purposes,
+provided you give appropriate credit (attribution) to the author.
