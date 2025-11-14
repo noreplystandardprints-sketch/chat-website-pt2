@@ -4,6 +4,8 @@ Single-file Flask + Socket.IO chat server with passcode-protected rooms, owner c
 
 This project is in beta. Expect breaking changes and incomplete security hardening. The repository is intended for code hosting on GitHub; deploy the server to your own host or platform.
 
+Here is the link: https://chat-app-qryy.onrender.com/
+
 ## Overview
 
 - One file: `app.py` embeds both the server and HTML templates.
