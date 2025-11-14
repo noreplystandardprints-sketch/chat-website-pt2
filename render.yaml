@@ -7,5 +7,5 @@ services:
       - key: PYTHON_VERSION
         value: 3.11.11
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn --chdir chat_app chat_app.app:app --worker-class eventlet -w 1 --bind 0.0.0.0:$PORT
+    startCommand: gunicorn chat_app.app:app --worker-class eventlet -w 1 --bind 0.0.0.0:$PORT
     autoDeploy: true
